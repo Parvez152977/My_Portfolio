@@ -6,7 +6,7 @@ A brief description of what this project does and who it's for
 
 ## Authors
 
-- [@Parvezalam152977](https://www.github.com/octokatherine)
+- [@Parvezalam152977](https://github.com/Parvez152977)
 
 
 ## 🚀 About Me

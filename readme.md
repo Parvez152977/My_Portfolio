@@ -35,7 +35,7 @@
 
 ## Technical Skills
 
-- Programming Languages: Python, Java, JavaScript
+- Programming Languages: html, CSS, Python, JavaScript
 - Tools & Platforms: Git, Visual Studio Code, Linux
 
 ## Projects

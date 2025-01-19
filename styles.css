@@ -8,46 +8,125 @@
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f9;
+    background-color:rgb(182, 243, 243);
     color: #333;
     margin: 0;
   }
-  
-  header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
+  .body{
+    padding: 1rem;
   }
   
+  header {
+    background: #41a9f3;
+    color: darkblue;
+    padding: 1rem 0;
+  }
+  #nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem 0rem 1rem;
+  }
+  #nav-icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  #nav-photo{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+  }
+  span{
+    color: rgb(2, 2, 58);
+  }
   header nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 1.5rem;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 1rem;
   }
   
   header nav ul li a {
-    color: #fff;
+    color: rgb(27, 19, 97);
     text-decoration: none;
     font-weight: bold;
   }
   
   header nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   main {
     padding: 2rem;
-    text-align: center;
+    /* text-align: center; */
   }
   
   section {
     margin-bottom: 2rem;
+    
   }
-  
+
+  #profile-container{
+    background-color: rgb(223, 190, 223);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 2%;
+  }
+
+  #profile-img img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 10%;
+  }
+
+
+  #profile-info{
+
+  }
+
   section h2 {
     color: #333;
     margin-bottom: 1rem;
+  }
+
+  #about-container{
+    background-color: rgb(223, 190, 223);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2%;
+    padding: 5rem;
+
+  }
+  #about-container h2, #about-container p{
+    flex: 1;
+    padding: 1rem;
+  }
+
+  /* .about h2, .about p{
+    flex: 1;
+  } */
+   #Education{
+    background-color: rgb(223, 190, 223);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2%;
+    padding: 5rem;
+
+   }
+   table tr td{
+    padding: 1rem;
+   }
+  #contact{
+    align-items: center;
+    text-align: center;
   }
   
   footer {

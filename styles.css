@@ -8,7 +8,7 @@
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color:rgb(182, 243, 243);
+    background-color:rgb(182, 218, 218);
     color: #333;
     margin: 0;
   }
@@ -95,7 +95,7 @@
     margin-bottom: 1rem;
   }
 
-  #about-container{
+  /* #about-container{
     background-color: rgb(223, 190, 223);
     display: flex;
     justify-content: space-between;
@@ -106,25 +106,85 @@
   }
   #about-container h2, #about-container p{
     flex: 1;
-    padding: 1rem;
-  }
+    padding: 1rem; 
+  } 
 
-  /* .about h2, .about p{
+  .about h2, .about p{
     flex: 1;
   } */
-   #Education{
+   #about{
+    background-color: rgb(223, 190, 223);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 2%;
+    padding: 5rem
+   }
+  #Education{
+    background-color: rgb(223, 190, 223);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2%;
+    padding: 5rem;  
+  }
+   #Relevant_Cources{
+    background-color: rgb(223, 190, 223);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2%;
+    padding: 5re
+   }
+   table tr td{
+    padding: 1rem;
+   }
+   #Technical_Skills{
     background-color: rgb(223, 190, 223);
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 2%;
     padding: 5rem;
-
    }
-   table tr td{
-    padding: 1rem;
+   #projects{
+    background-color: rgb(223, 190, 223);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2%;
+    padding: 5rem;
    }
+   #Certification_and_Training{
+    background-color: rgb(223, 190, 223);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2%;
+    padding: 5rem;
+   }
+   #Soft_Skills{
+    background-color: rgb(223, 190, 223);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2%;
+    padding: 5rem;
+   }
+  #Language {
+    background-color: rgb(223, 190, 223);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2%;
+    padding: 5rem;
+    align-items: center;
+    text-align: center
+    }
   #contact{
+    background-color: rgb(223, 190, 223);
+    border-radius: 2%;
+    padding: 5rem;
     align-items: center;
     text-align: center;
   }

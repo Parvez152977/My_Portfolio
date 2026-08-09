@@ -291,7 +291,7 @@ body {
 }
 
 .highlight-item i {
-    color: #1A73E8;
+    color: #0a50ac;
     font-size: 1.2rem;
     width: 24px;
 }
@@ -459,6 +459,95 @@ body {
     opacity: 0.7;
 }
 
+/* ===== CAREER JOURNEY SECTION ===== */
+.journey {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.journey-timeline {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.journey-step {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.journey-step:hover {
+    transform: translateX(8px);
+}
+
+.step-number {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    background: #1A73E8;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.step-content {
+    flex: 1;
+}
+
+.step-content h3 {
+    font-size: 1.3rem;
+    margin-bottom: 4px;
+    color: #202124;
+}
+
+.step-content p {
+    color: #5f6368;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.step-content p strong {
+    color: #1A73E8;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.step-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.step-tags span {
+    background: #e8edf5;
+    color: #1A73E8;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.journey-arrow {
+    font-size: 2rem;
+    color: #1A73E8;
+    padding: 12px 0;
+    opacity: 0.6;
+}
+
 /* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 768px) {
     .hero-title {
@@ -539,6 +628,17 @@ body {
         width: 100%;
         max-width: 300px;
     }
+
+    .journey-step {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .step-tags {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -552,5 +652,16 @@ body {
 
     .project-card {
         padding: 20px;
+    }
+
+    .journey-step {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .step-tags {
+        justify-content: center;
     }
 }
